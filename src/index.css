@@ -44,6 +44,10 @@ main {
   background-color: #2563eb;
 }
 
+.btn:disabled {
+  background-color: #7a7a7a;
+}
+
 ul {
   list-style: none;
 }

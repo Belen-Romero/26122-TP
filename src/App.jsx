@@ -1,6 +1,9 @@
 import "./App.css";
+import { Count } from "./components/Count/Count";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
+
+import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 
 function App() {
   return (
@@ -14,6 +17,8 @@ function App() {
           accusantium, repudiandae voluptatibus doloremque ullam saepe quo
           aliquid. Qui, quas. Quibusdam?
         </p>
+
+        <ItemListContainer />
       </main>
       <Footer />
     </>
