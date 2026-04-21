@@ -19,6 +19,12 @@ body {
 /* Y que main ocupe el mayor espacio disponible */
 main {
   flex: 1;
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
 }
 
 .primary {

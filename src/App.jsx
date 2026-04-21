@@ -10,13 +10,7 @@ function App() {
     <>
       <Header />
       <main>
-        <h1>Tienda de mascotas</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium,
-          quisquam. Doloribus voluptate vel iure, et illo fugiat error nisi,
-          accusantium, repudiandae voluptatibus doloremque ullam saepe quo
-          aliquid. Qui, quas. Quibusdam?
-        </p>
+        <h1>Nuestros productos</h1>
 
         <ItemListContainer />
       </main>

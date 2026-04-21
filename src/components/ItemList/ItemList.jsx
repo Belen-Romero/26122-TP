@@ -1,4 +1,5 @@
 import { Item } from "../Item/Item";
+import "./ItemList.css";
 
 export const ItemList = ({ products }) => {
   if (!products.length) {
@@ -6,14 +7,9 @@ export const ItemList = ({ products }) => {
   }
 
   return (
-    <div>
+    <div className="products-container">
       {products.map((product) => (
-        <Item
-          key={product.id}
-          name={product.name}
-          price={product.price}
-          description={product.description}
-        />
+        <Item key={product.id} {...product} />
       ))}
     </div>
   );

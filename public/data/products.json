@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Zapatito Bebé Azul",
+    "description": "Zapatilla tipo lona en azul vibrante con puntera reforzada y cordones elásticos. Ideales para gateo y sus primeros pasos con total seguridad.",
+    "price": 12500,
+    "image": "/img/bebe-azul.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Zapatito Bebé Rosa",
+    "description": "Zapatos estilo Guillermina en color fucsia con detalle de moño. Suela blanda y flexible, perfecta para proteger los pies de tu bebé con delicadeza.",
+    "price": 12500,
+    "image": "/img/bebe-rosa.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sandalia Dama Verano",
+    "description": "Sandalias de tacón alto en cuero texturizado rosa neón. Diseño de plataforma ancha que combina tendencia y estabilidad para salidas nocturnas.",
+    "price": 28900,
+    "image": "/img/sandalia.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Zapato Dama Elegante",
+    "description": "Stilettos clásicos en cuero charolado color borravino. Punta fina y tacón aguja para un look sofisticado de oficina o eventos de gala.",
+    "price": 35000,
+    "image": "/img/zapato-dama.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Zapato Hombre Oxford",
+    "description": "Zapatos Oxford de cuero genuino color suela con acabado artesanal. Un clásico atemporal con cordones encerados para el hombre moderno.",
+    "price": 42000,
+    "image": "/img/zapato-hombre.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Zapato Hombre Marrón Premium",
+    "description": "Calzado de vestir en cuero mate color chocolate. Incluye detalles de costura a mano y suela de alta durabilidad, ideales para uso intensivo formal.",
+    "price": 45500,
+    "image": "/img/zapato-hombre-2.jpg"
+  }
+]
