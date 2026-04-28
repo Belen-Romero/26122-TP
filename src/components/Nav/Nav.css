@@ -8,3 +8,8 @@
   font-size: 2rem;
   margin: 0.5rem;
 }
+
+.nav-list a {
+  text-decoration: none;
+  color: inherit;
+}

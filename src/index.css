@@ -24,6 +24,7 @@ main {
 }
 
 h1 {
+  width: 100%;
   text-align: center;
 }
 
@@ -56,4 +57,9 @@ h1 {
 
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
