@@ -34,8 +34,6 @@ export const ItemListContainer = () => {
       .finally(() => setLoading(false));
   }, []);
 
-  console.log(products);
-
   //SOLO es para ejemplo practico porque aun nos faltan temas por ver: NO ES LA MANERA CORRECTA
   // const arrayProducts = [
   //   { id: 0, name: "Producto 1", description: "Descripcion 1", price: 123 },

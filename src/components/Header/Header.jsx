@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/react.svg";
 import { Nav } from "../Nav/Nav";
 
@@ -7,8 +8,10 @@ export const Header = () => {
   return (
     <header>
       <div className="logo-container">
-        <img src={logo} />
-        <span>Reactiva</span>
+        <Link to={"/"}>
+          <img src={logo} />
+          <span>Reactiva</span>
+        </Link>
       </div>
       <Nav />
     </header>

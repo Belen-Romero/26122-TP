@@ -40,8 +40,19 @@ h1 {
   color: #7a7a7a;
 }
 
-.btn {
+.bg-primary {
   background-color: #3b82f6;
+}
+
+.bg-success {
+  background-color: #28a745;
+}
+
+.bg-delete {
+  background-color: #dc3545;
+}
+
+.btn {
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   border: none;
