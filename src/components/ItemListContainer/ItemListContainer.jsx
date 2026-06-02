@@ -6,10 +6,10 @@ import { useParams } from "react-router-dom";
 export const ItemListContainer = () => {
   //tomamos "category" del useParams para poder filtrar
   const { category } = useParams();
+
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  //Con el JSON LOCAL
   useEffect(() => {
     setLoading(true);
 
@@ -20,6 +20,7 @@ export const ItemListContainer = () => {
       .finally(() => setLoading(false));
   }, [category]);
   //👉No olvidar agregar "category" como variable de dependencias para que renderice nuevamente el container si cambia category
+  //En caso de usar el filtro por categorias
 
   if (loading) return <p>Cargando...</p>;
 
