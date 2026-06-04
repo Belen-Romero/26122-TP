@@ -44,6 +44,8 @@ export const ProductFormContainer = () => {
     }
 
     try {
+      throw new Error("Error de prueba 🔥");
+
       //subir la imagen
       const imageUrl = await uploadImage(file);
 

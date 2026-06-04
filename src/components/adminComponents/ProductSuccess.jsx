@@ -1,9 +1,8 @@
 import { useEffect } from "react";
-import { replace, useNavigate, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 export const ProductSuccess = () => {
   const { id } = useParams();
-  const navigate = useNavigate();
 
   return (
     <section className="success-page">
@@ -13,12 +12,9 @@ export const ProductSuccess = () => {
       <p>ID de producto: {id}</p>
       <p>Puede cargar otro haciendo click en el boton.</p>
 
-      <button
-        className="btn bg-primary primary"
-        onClick={() => navigate("/admin", { replace: true })}
-      >
+      <Link className="btn bg-primary primary" to="/admin" replace>
         Agregar otro producto
-      </button>
+      </Link>
     </section>
   );
 };

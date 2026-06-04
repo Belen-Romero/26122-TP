@@ -18,7 +18,6 @@ export const ProductFormUI = ({
             name="name"
             value={product.name}
             onChange={onChange}
-            required
           />
           {errors.name && <p className="error">{errors.name}</p>}
         </div>
@@ -31,7 +30,6 @@ export const ProductFormUI = ({
             value={product.price}
             onChange={onChange}
             min="0"
-            required
           />
           {errors.price && <p className="error">{errors.price}</p>}
         </div>
@@ -43,7 +41,6 @@ export const ProductFormUI = ({
             name="category"
             value={product.category}
             onChange={onChange}
-            required
           />
           {errors.category && <p className="error">{errors.category}</p>}
         </div>
@@ -54,19 +51,13 @@ export const ProductFormUI = ({
             name="description"
             value={product.description}
             onChange={onChange}
-            required
           />
           {errors.description && <p className="error">{errors.description}</p>}
         </div>
 
         <div>
           <label>Imagen:</label>
-          <input
-            type="file"
-            accept="image/*"
-            onChange={onFileChange}
-            required
-          />
+          <input type="file" accept="image/*" onChange={onFileChange} />
           {errors.file && <p className="error">{errors.file}</p>}
         </div>
 
