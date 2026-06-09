@@ -25,7 +25,8 @@ function App() {
         </Route>
 
         {/* IMPORTAR EL COMPONENTE LOGIN */}
-        <Route path="/admin/login" element={<Login />} />
+        {/* <Route path="/admin/login" element={<Login />} /> */}
+        <Route path="/admin/login" element={<h2>LOGIN</h2>} />
         {/* -----------------------------ADMIN--------------------------- */}
         <Route
           path="/admin"
